@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+:root {
+  --bs-idk: #7f4aef;
+  --bs-idk-font: #6b6772;
+  --bs-font-dark: #34373a;
+}
+.display-4,
+.warning {
+  color: #353e4c;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+.warning {
+  color: #5378fa;
+}
+.lead {
+  color: #2a2b33;
+}
+#btn-search.btn-primary {
+  font-weight: 600;
+  font-family: "Poppins";
+  transition: 0.3s;
+  background-color: #5378fa !important;
+  border: none;
+}
+
+.costum-input {
+  height: 52px !important;
+  border: none !important;
+  background: #eff1ff !important;
+  border-radius: 5px !important;
+}
+.jumbotron,
+.bg-primary-secon {
+  background-color: #ffffff !important;
+}
+
+.link-blog {
+  color: #353e4c !important;
+  font-weight: 500 !important;
+  font-size: 1em !important;
+}
+
+/* overlay form search target */
+.overlay:target {
+  width: 27em;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(3, 4, 29, 0.8);
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 0.7rem 0.7rem;
+  background-color: white;
+  box-shadow: 0 0 102px -39px #0f213cde;
+}
+@media (max-width: 450px) {
+  .overlay:target {
+    width: 95%;
+    height: 125px;
+    padding: 10px;
+  }
+}
+.overlay {
+  position: fixed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  top: -152px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(3, 4, 29, 0);
+  z-index: 999999999;
+  transition: 0.5s;
+}
+.overlay .close {
+  background-color: aqua;
+}
+
+/* posts */
+.btn-category {
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #0d6efd;
+  border: none;
+  color: white;
+}
+.btn-category:hover {
+  color: white;
+  background-color: #0b5ed7;
+}
+.tanggal {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: var(--bs-idk-font);
+}
+a.card-title {
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: #34373a;
+}
+p.card-text {
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 25px; */
+  letter-spacing: 0.02em;
+  color: var(--bs-idk-font);
+}
+h4.allPost {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--bs-font-dark);
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="myBootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="container-fluid overflow-hidden"
+      style="height: 100vh; overflow: hidden"
+    >
+      <div class="row" style="height: 100%">
+        <div class="col-2 bg-white">
+          <div class="d-flex flex-column px-1 py-2">
+            <div class="logo py-2">D<span>board</span></div>
+            <div class="navigation">
+              <h1 class="menu pt-3 mb-3 border-top">Menu</h1>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active px-3 py-3" href="#">
+                    <svg
+                      width="15"
+                      height="16.73"
+                      viewBox="0 0 20 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.5 8.39801L5.5 3.20801"
+                        stroke="#343434"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M19 14.9979V6.99795C18.9996 6.64722 18.9071 6.30276 18.7315 5.99911C18.556 5.69546 18.3037 5.44331 18 5.26795L11 1.26795C10.696 1.09241 10.3511 1 10 1C9.64893 1 9.30404 1.09241 9 1.26795L2 5.26795C1.69626 5.44331 1.44398 5.69546 1.26846 5.99911C1.09294 6.30276 1.00036 6.64722 1 6.99795V14.9979C1.00036 15.3487 1.09294 15.6931 1.26846 15.9968C1.44398 16.3004 1.69626 16.5526 2 16.7279L9 20.7279C9.30404 20.9035 9.64893 20.9959 10 20.9959C10.3511 20.9959 10.696 20.9035 11 20.7279L18 16.7279C18.3037 16.5526 18.556 16.3004 18.7315 15.9968C18.9071 15.6931 18.9996 15.3487 19 14.9979Z"
+                        stroke="#343434"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M1.27002 5.95801L10 11.008L18.73 5.95801"
+                        stroke="#343434"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10 21.078V10.998"
+                        stroke="#343434"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="ms-2">Overview</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3 py-3" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-file-plus"
+                    >
+                      <path
+                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                      ></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                      <line x1="12" y1="18" x2="12" y2="12"></line>
+                      <line x1="9" y1="15" x2="15" y2="15"></line>
+                    </svg>
+                    <span class="ms-2">Add Student</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col p-0">
+          <div class="row" style="height: 100%">
+            <div class="col-12">
+              <header
+                class="d-flex justify-content-between align-items-center px-4 py-2 bg-white"
+              >
+                <div class="col-2">
+                  <div class="title-page">Overview</div>
+                </div>
+                <div class="col">
+                  <div class="search">
+                    <div class="input-group" id="search-input-group">
+                      <span class="input-group-text">
+                        <svg
+                          width="17"
+                          height="17"
+                          viewBox="0 0 17 17"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M7.70833 13.6667C11.2061 13.6667 14.0417 10.8311 14.0417 7.33333C14.0417 3.83553 11.2061 1 7.70833 1C4.21053 1 1.375 3.83553 1.375 7.33333C1.375 10.8311 4.21053 13.6667 7.70833 13.6667Z"
+                            stroke="#9196A5"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M15.625 15.25L12.1813 11.8063"
+                            stroke="#9196A5"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="input-text"
+                        placeholder="Search data in overview"
+                      />
+                      <span class="input-group-text">
+                        <div class="bg-white p-1 px-2 rounded">
+                          <svg
+                            width="12"
+                            height="12"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.125 4.75L1 7.875L4.125 11"
+                              stroke="#595E6C"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M11 1V5.375C11 6.03804 10.7366 6.67393 10.2678 7.14277C9.79893 7.61161 9.16304 7.875 8.5 7.875H1"
+                              stroke="#595E6C"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <span class="enter">Enter</span>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div
+                    class="profil d-flex justify-content-around align-items-center"
+                  >
+                    <div class="dropdown">
+                      <button
+                        class="btn dropdown-toggle dropdown-toggle1"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <svg
+                          width="17"
+                          height="19"
+                          viewBox="0 0 17 19"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M13.5 6C13.5 4.67392 12.9732 3.40215 12.0355 2.46447C11.0979 1.52678 9.82608 1 8.5 1C7.17392 1 5.90215 1.52678 4.96447 2.46447C4.02678 3.40215 3.5 4.67392 3.5 6C3.5 11.8333 1 13.5 1 13.5H16C16 13.5 13.5 11.8333 13.5 6Z"
+                            stroke="#595E6C"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M9.94168 16.8333C9.79517 17.0859 9.58488 17.2955 9.33187 17.4413C9.07886 17.587 8.792 17.6637 8.50002 17.6637C8.20803 17.6637 7.92117 17.587 7.66816 17.4413C7.41515 17.2955 7.20486 17.0859 7.05835 16.8333"
+                            stroke="#595E6C"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <div class="pesan p-1">Notif</div>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <button
+                        class="btn dropdown-toggle d-flex align-items-center profile"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <div class="mask-photo"></div>
+                        <style>
+                          .mask-photo {
+                            width: 40px;
+                            height: 40px;
+                            background-image: url(assets/pinguin.jpg);
+                            background-size: cover;
+                            border-radius: 50%;
+                          }
+                        </style>
+                        <span class="ms-2">Hi, Pinguin</span>
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </div>
+            <div class="col-12" style="height: 100%">main content</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="myScript.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

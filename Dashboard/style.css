@@ -1,0 +1,94 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #fafafa;
+}
+:root {
+  --my-blue: #2e5cfd;
+}
+.logo {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+.logo span {
+  color: #2e5cfd;
+}
+h1.menu {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #293049;
+}
+
+.nav-link,
+.nav-link.active {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+}
+.nav-link {
+  color: #595e6c;
+}
+.nav-link.active {
+  background-color: var(--my-blue);
+}
+.nav-link.active {
+  color: #ffffff;
+}
+.nav-link.active svg,
+.nav-link.active svg path {
+  /* fill: white; */
+  stroke: white;
+}
+
+/* header */
+.title-page {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #293049;
+}
+.search .input-group {
+  border-radius: 6px;
+  overflow: hidden;
+}
+.search .input-group .form-control:focus {
+  box-shadow: none !important;
+}
+.search .input-group span.input-group-text,
+.search .input-group input {
+  background: #f3f6ff;
+  border: none;
+  border-radius: 0 !important;
+}
+
+span.enter {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #595e6c;
+}
+#input-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e6476;
+}
+.dropdown-toggle1::after {
+  display: none !important;
+}
+.dropdown-toggle1 svg {
+  stroke: #293049;
+}
+.profile span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  color: #293049;
+}

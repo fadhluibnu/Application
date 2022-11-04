@@ -1,0 +1,70 @@
+.cursor svg {
+  cursor: pointer;
+}
+.share1 svg:hover circle.hover1,
+.share2 svg:hover circle.hover2,
+.share3 svg:hover circle.hover3,
+.share4 svg:hover circle.hover4 {
+  fill: rgba(126, 74, 239, 0.2);
+}
+h1.single {
+  font-weight: 700;
+  font-size: 2.125rem;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--bs-font-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  color: #20222e;
+}
+a {
+  text-decoration: none;
+  color: var(--bs-blue);
+}
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
+  font-size: calc(1.325rem + 0.9vw);
+}
+h3 {
+  font-weight: 600;
+  font-size: calc(1.3rem + 0.6vw);
+}
+h4 {
+  font-weight: 600;
+  font-size: calc(1.2rem + 0.3vw);
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1.1rem;
+}
+#contain .konten ul {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+p {
+  font-size: 1.1em;
+  color: #2a2b33;
+  font-weight: 400;
+  margin-top: 18px;
+  line-height: 1.7;
+}
+b,
+strong {
+  font-weight: 500;
+
+  color: #20222e;
+}
